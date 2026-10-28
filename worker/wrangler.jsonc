@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "han-atlas-ai-2026",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-28",
+  "observability": { "enabled": true },
+  "ai": { "binding": "AI" },
+  "vars": {
+    "ALLOWED_ORIGINS": "https://USERNAME.github.io,http://localhost:5500,http://127.0.0.1:5500"
+  }
+}
